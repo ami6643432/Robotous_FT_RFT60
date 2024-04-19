@@ -33,7 +33,17 @@ If there is error even after package got built, then go to the Common Errors sec
 ```bash
 mick@mick-Predator-PHN16-71:~/catkin_ft$ source devel/setup.bash 
 mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rqt_service_caller rqt_service_caller
-   
+```
+
+9. echo rostopic:
+```bash
+   mick@mick-Predator-PHN16-71:~/catkin_ft$ rostopic echo /RFT_Force
+
+```
+
+10. Run the sensor and get data on rostopic.
+ ```bash
+
 ```
 
 #Important Key Points
