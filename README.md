@@ -22,8 +22,11 @@ Before you start your journey of making and building different stacks, it's esse
 ```bash
    source ~/.bashrc
 ```
-6. Read the helpdoc for ROS package folder.
-7. Start serial communication
+6. Read the helpdoc for ROS package folder and set parameters
+   ![4](https://github.com/ami6643432/Robotous_FT_RFT60/assets/23532442/2a6a2857-46b1-47af-bd86-934eae6d6481)
+   
+   
+8. Start serial communication
 ```bash
    mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rft_sensor_serial rft_sensor_serial
 ```
@@ -35,13 +38,19 @@ mick@mick-Predator-PHN16-71:~/catkin_ft$ source devel/setup.bash
 mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rqt_service_caller rqt_service_caller
 ```
 
-9. echo rostopic:
+9.  Set streaming parameters
+    ![Screenshot from 2024-04-20 11-33-36](https://github.com/ami6643432/Robotous_FT_RFT60/assets/23532442/7980707c-c1c0-497d-802e-81e05abae64c)
+
+10. start steaming (via the software)
+    ![Screenshot from 2024-04-20 11-34-00](https://github.com/ami6643432/Robotous_FT_RFT60/assets/23532442/07e5568d-1202-4119-aa32-8b3a5b0df637)
+
+
+11. echo rostopic:
 ```bash
    mick@mick-Predator-PHN16-71:~/catkin_ft$ rostopic echo /RFT_Force
-
 ```
 
-10. Run the sensor and get data on rostopic.
+12. Run the sensor and get data on rostopic.
  ```bash
 
 ```
