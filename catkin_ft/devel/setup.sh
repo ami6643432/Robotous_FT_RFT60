@@ -1,0 +1,1 @@
+/home/mick/catkin_ft/devel/.private/catkin_tools_prebuild/setup.sh

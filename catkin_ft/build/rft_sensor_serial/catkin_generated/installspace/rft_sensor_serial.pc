@@ -1,0 +1,8 @@
+prefix=/home/mick/catkin_ft/install
+
+Name: rft_sensor_serial
+Description: Description of rft_sensor_serial
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrft_sensor_serial
+Requires: geometry_msgs std_msgs roscpp

@@ -1,0 +1,6 @@
+devel_space: /home/mick/catkin_ft/devel
+install: false
+install_space: /home/mick/catkin_ft/install
+profile: default
+source_space: /home/mick/catkin_ft/src
+workspace: /home/mick/catkin_ft
