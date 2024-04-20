@@ -77,7 +77,6 @@ mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rft_sensor_serial rft_sensor_ser
 [ INFO] [1713562305.372557372]: Force Divider of RFT sensor: 50.000000
 [ INFO] [1713562305.372640026]: Torque Divider of RFT sensor: 1000.000000
 [ERROR] [1713562305.372774309]: COM Port Open Error
-
 ```
 
 #Resolving Errors
