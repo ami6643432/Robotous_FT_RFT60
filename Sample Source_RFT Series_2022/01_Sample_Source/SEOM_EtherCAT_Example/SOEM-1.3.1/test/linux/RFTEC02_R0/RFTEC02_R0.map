@@ -1,0 +1,1600 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+                              obj/linux/RFTEC02_R0.o (osal_usleep)
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                              obj/linux/RFTEC02_R0.o (ec_config_init)
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+                              obj/linux/RFTEC02_R0.o (ec_configdc)
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                              obj/linux/RFTEC02_R0.o (ec_slave)
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                              obj/linux/RFTEC02_R0.o (ec_ALstatuscode2string)
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+                              /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o) (ecx_readIDNmap)
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                              /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o) (ecx_setupdatagram)
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+                              /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o) (ecx_readPDOmap)
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o (__libc_csu_init)
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                              /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o) (secMAC)
+/home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+                              /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o) (oshw_htons)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libc.so.6                     /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o) (strcpy@@GLIBC_2.2.5)
+libpthread.so.0               /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o) (pthread_create@@GLIBC_2.2.5)
+
+Allocating common symbols
+Common symbol       size              file
+
+IOmap               0x1000            obj/linux/RFTEC02_R0.o
+ecx_port            0xcb30            /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ecx_redport         0x6590            /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ecx_mapt            0xc0              /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ecx_threadh         0x40              /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+inOP                0x1               obj/linux/RFTEC02_R0.o
+ec_DCtime           0x8               /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+thread1             0x8               obj/linux/RFTEC02_R0.o
+thread3             0x8               obj/linux/RFTEC02_R0.o
+expectedWKC         0x4               obj/linux/RFTEC02_R0.o
+estring             0x7f              /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+rtcnt               0x4               obj/linux/RFTEC02_R0.o
+needlf              0x1               obj/linux/RFTEC02_R0.o
+ec_slavecount       0x4               /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+thread2             0x8               obj/linux/RFTEC02_R0.o
+wkc                 0x4               obj/linux/RFTEC02_R0.o
+ec_group            0x270             /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ec_slave            0x10040           /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+ .text          0x0000000000000000        0x0 obj/linux/RFTEC02_R0.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj/linux/RFTEC02_R0.o
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .data          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .bss           0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .text.osal_time_diff
+                0x0000000000000000       0x75 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .text.osal_malloc
+                0x0000000000000000       0x1b /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .text.osal_free
+                0x0000000000000000       0x1c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .text.osal_thread_create_rt
+                0x0000000000000000       0xf8 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .data          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .bss           0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ec_config
+                0x0000000000000000       0x3a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .data          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .bss           0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .text.ecx_dcsync0
+                0x0000000000000000      0x20d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .text.ecx_dcsync01
+                0x0000000000000000      0x260 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .text.ec_dcsync0
+                0x0000000000000000       0x3c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .text.ec_dcsync01
+                0x0000000000000000       0x4a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_find_adapters
+                0x0000000000000000       0x18 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_free_adapters
+                0x0000000000000000       0x1c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_iserror
+                0x0000000000000000       0x25 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_init_redundant
+                0x0000000000000000      0x120 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_esidump
+                0x0000000000000000      0x163 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_writeeeprom
+                0x0000000000000000       0x8a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_eeprom_waitnotbusyAP
+                0x0000000000000000      0x113 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_readeepromAP
+                0x0000000000000000      0x271 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_writeeepromAP
+                0x0000000000000000      0x206 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_writeeepromFP
+                0x0000000000000000      0x206 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_send_processdata
+                0x0000000000000000       0x20 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_receive_processdata
+                0x0000000000000000       0x28 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_pusherror
+                0x0000000000000000       0x1f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_poperror
+                0x0000000000000000       0x1e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_iserror
+                0x0000000000000000        0xb /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_packeterror
+                0x0000000000000000       0x40 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_init_redundant
+                0x0000000000000000       0x30 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siigetbyte
+                0x0000000000000000       0x2d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siifind
+                0x0000000000000000       0x2d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siistring
+                0x0000000000000000       0x37 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siiFMMU
+                0x0000000000000000       0x29 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siiSM
+                0x0000000000000000       0x29 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siiSMnext
+                0x0000000000000000       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_siiPDO
+                0x0000000000000000       0x34 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_mbxempty
+                0x0000000000000000       0x29 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_mbxsend
+                0x0000000000000000       0x31 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_mbxreceive
+                0x0000000000000000       0x31 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_esidump
+                0x0000000000000000       0x2a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readeeprom
+                0x0000000000000000       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_writeeeprom
+                0x0000000000000000       0x3e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_eeprom2master
+                0x0000000000000000       0x21 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_eeprom2pdi
+                0x0000000000000000       0x21 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_eeprom_waitnotbusyAP
+                0x0000000000000000       0x31 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readeepromAP
+                0x0000000000000000       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_writeeepromAP
+                0x0000000000000000       0x3e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_eeprom_waitnotbusyFP
+                0x0000000000000000       0x31 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readeepromFP
+                0x0000000000000000       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_writeeepromFP
+                0x0000000000000000       0x3e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readeeprom1
+                0x0000000000000000       0x2e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ec_readeeprom2
+                0x0000000000000000       0x29 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .data          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .bss           0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .text.ec_elist2string
+                0x0000000000000000       0x13 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .data          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .bss           0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .text.ecx_SoEwrite
+                0x0000000000000000      0x472 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .text.ec_SoEread
+                0x0000000000000000       0x5f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .text.ec_SoEwrite
+                0x0000000000000000       0x5f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .text.ec_readIDNmap
+                0x0000000000000000       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .data          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .bss           0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_ARMW
+                0x0000000000000000       0xff /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_FRMW
+                0x0000000000000000       0xff /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_LRW  0x0000000000000000      0x123 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_LRD  0x0000000000000000      0x123 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_LWR  0x0000000000000000       0xc8 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_LRWDC
+                0x0000000000000000      0x238 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_setupdatagram
+                0x0000000000000000       0x69 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_adddatagram
+                0x0000000000000000       0x77 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_BWR   0x0000000000000000       0x4e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_BRD   0x0000000000000000       0x4e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_APRD  0x0000000000000000       0x4e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_ARMW  0x0000000000000000       0x4e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FRMW  0x0000000000000000       0x4e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_APRDw
+                0x0000000000000000       0x71 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FPRD  0x0000000000000000       0x4e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FPRDw
+                0x0000000000000000       0x71 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_APWR  0x0000000000000000       0x4e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_APWRw
+                0x0000000000000000       0x41 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FPWR  0x0000000000000000       0x4e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_FPWRw
+                0x0000000000000000       0x41 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_LRW   0x0000000000000000       0x3e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_LRD   0x0000000000000000       0x3e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_LWR   0x0000000000000000       0x3e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ec_LRWDC
+                0x0000000000000000       0x5d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .data          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .bss           0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ecx_SDOinfoerror
+                0x0000000000000000       0xae /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ecx_SDOwrite
+                0x0000000000000000      0x87b /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ecx_RxPDO
+                0x0000000000000000      0x1f1 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ecx_TxPDO
+                0x0000000000000000      0x2d5 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ecx_readODlist
+                0x0000000000000000      0x42a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ecx_readODdescription
+                0x0000000000000000      0x417 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ecx_readOEsingle
+                0x0000000000000000      0x3f7 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ecx_readOE
+                0x0000000000000000       0x97 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_SDOerror
+                0x0000000000000000       0x3e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_SDOread
+                0x0000000000000000       0x5e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_SDOwrite
+                0x0000000000000000       0x5e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_RxPDO
+                0x0000000000000000       0x40 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_TxPDO
+                0x0000000000000000       0x4e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_readPDOassign
+                0x0000000000000000       0x2d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_readPDOassignCA
+                0x0000000000000000       0x2d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_readPDOmap
+                0x0000000000000000       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_readPDOmapCA
+                0x0000000000000000       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_readODlist
+                0x0000000000000000       0x29 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_readODdescription
+                0x0000000000000000       0x29 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_readOEsingle
+                0x0000000000000000       0x41 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .text.ec_readOE
+                0x0000000000000000       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .data          0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .data          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .bss           0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .rodata        0x0000000000000000        0xc /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_setupnic
+                0x0000000000000000       0x28 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_closenic
+                0x0000000000000000       0x13 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_getindex
+                0x0000000000000000       0x13 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_setbufstat
+                0x0000000000000000       0x24 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_outframe
+                0x0000000000000000       0x25 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_outframe_red
+                0x0000000000000000       0x1d /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_inframe
+                0x0000000000000000       0x25 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_waitinframe
+                0x0000000000000000       0x25 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ec_srconfirm
+                0x0000000000000000       0x25 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+ .data          0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+ .bss           0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+ .text.oshw_htons
+                0x0000000000000000       0x26 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+ .text.oshw_ntohs
+                0x0000000000000000       0x26 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+ .text.oshw_find_adapters
+                0x0000000000000000      0x19e /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+ .text.oshw_free_adapters
+                0x0000000000000000       0x67 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+LOAD obj/linux/RFTEC02_R0.o
+START GROUP
+LOAD /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a
+LOAD /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a
+LOAD /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start, 0x400000)
+                0x0000000000400238                . = (0x400000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000400238       0x1c
+ *(.interp)
+ .interp        0x0000000000400238       0x1c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.note.ABI-tag   0x0000000000400254       0x20
+ .note.ABI-tag  0x0000000000400254       0x20 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.note.gnu.build-id
+                0x0000000000400274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000400274       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000400298       0x24
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000400298       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.dynsym         0x00000000004002c0      0x330
+ *(.dynsym)
+ .dynsym        0x00000000004002c0      0x330 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.dynstr         0x00000000004005f0      0x1c9
+ *(.dynstr)
+ .dynstr        0x00000000004005f0      0x1c9 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version    0x00000000004007ba       0x44
+ *(.gnu.version)
+ .gnu.version   0x00000000004007ba       0x44 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_d  0x0000000000400800        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000400800        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_r  0x0000000000400800       0x70
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000400800       0x70 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.rela.dyn       0x0000000000400870       0x18
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.changeRFTEC01_ConfigParam
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.updateRFT_Data
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.RFT_DATA_DISPLAY_THREAD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.RFT_TEST_OP_THREAD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.RFTEC02_R0_TEST
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecatcheck
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.main
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.osal_usleep
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.osal_gettimeofday
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.osal_current_time
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.osal_timer_start
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.osal_timer_is_expired
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.osal_malloc
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.osal_free
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.osal_thread_create
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.osal_thread_create_rt
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_init_context
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_detect_slaves
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_set_slaves_to_default
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_config_from_table
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_lookup_prev_sii
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_config_init
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_map_coe_soe
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_map_sii
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_map_sm
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_find_mapt
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_get_threadcount
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_config_map_group
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_recover_slave
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_reconfig_slave
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_config_init
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_config_map_group
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_recover_slave
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_reconfig_slave
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_dcsync0
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_dcsync01
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_configdc
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_dcsync0
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_dcsync01
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_configdc
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_find_adapters
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_free_adapters
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_packeterror
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_mbxerror
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_mbxemergencyerror
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_init
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_init_redundant
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_close
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_siigetbyte
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_FPRD_multi
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readstate
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_writestate
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_statecheck
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_clearmbx
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_mbxempty
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_mbxsend
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_mbxreceive
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_eeprom2master
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_eeprom2pdi
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_eeprom_waitnotbusyAP
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readeepromAP
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_writeeepromAP
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_eeprom_waitnotbusyFP
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readeepromFP
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_writeeepromFP
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readeeprom1
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readeeprom2
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_send_processdata_group
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_receive_processdata_group
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_init_redundant
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_elist2string
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_SoEerror
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_SoEread
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_SoEwrite
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readIDNmap
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_writedatagramdata
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_BWR
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_BRD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_APRD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_ARMW
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_FRMW
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_APRDw
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_FPRD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_FPRDw
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_APWR
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_FPWR
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_LRW
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_LRD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_LWR
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_LRWDC
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_setupdatagram
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_adddatagram
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_BWR
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_BRD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_APRD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_ARMW
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_FRMW
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_APRDw
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_FPRD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_FPRDw
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_APWR
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_FPWR
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_LRW
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_LRD
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_LWR
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_LRWDC
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_SDOerror
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_SDOinfoerror
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_SDOread
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_SDOwrite
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_RxPDO
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_TxPDO
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readPDOassign
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readPDOassignCA
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readPDOmap
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readPDOmapCA
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readODlist
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readODdescription
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_readOEsingle
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_setupnic
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_closenic
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_setupheader
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_getindex
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_outframe
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_outframe_red
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_recvpkt
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_inframe
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_waitinframe_red
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_waitinframe
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ecx_srconfirm
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_setupnic
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_closenic
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_getindex
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_setbufstat
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_outframe
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_outframe_red
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_inframe
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_waitinframe
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ec_srconfirm
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.oshw_htons
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.oshw_ntohs
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.oshw_find_adapters
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.oshw_free_adapters
+                0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data     0x0000000000400870        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000400870       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000400888        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+
+.rela.plt       0x0000000000400888      0x2b8
+ *(.rela.plt)
+ .rela.plt      0x0000000000400888      0x2b8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+ .rela.iplt     0x0000000000400b40        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+                [!provide]                        PROVIDE (__rela_iplt_end, .)
+
+.init           0x0000000000400b40       0x1a
+ *(SORT(.init))
+ .init          0x0000000000400b40       0x15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000400b40                _init
+ .init          0x0000000000400b55        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000400b60      0x1e0
+ *(.plt)
+ .plt           0x0000000000400b60      0x1e0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400b70                recv@@GLIBC_2.2.5
+                0x0000000000400b80                putchar@@GLIBC_2.2.5
+                0x0000000000400b90                pthread_create@@GLIBC_2.2.5
+                0x0000000000400ba0                strcpy@@GLIBC_2.2.5
+                0x0000000000400bb0                puts@@GLIBC_2.2.5
+                0x0000000000400bc0                setsockopt@@GLIBC_2.2.5
+                0x0000000000400bd0                clock_gettime@@GLIBC_2.17
+                0x0000000000400be0                ctime@@GLIBC_2.2.5
+                0x0000000000400bf0                __stack_chk_fail@@GLIBC_2.4
+                0x0000000000400c00                htons@@GLIBC_2.2.5
+                0x0000000000400c10                send@@GLIBC_2.2.5
+                0x0000000000400c20                printf@@GLIBC_2.2.5
+                0x0000000000400c30                nanosleep@@GLIBC_2.2.5
+                0x0000000000400c40                memset@@GLIBC_2.2.5
+                0x0000000000400c50                ioctl@@GLIBC_2.2.5
+                0x0000000000400c60                close@@GLIBC_2.2.5
+                0x0000000000400c70                __libc_start_main@@GLIBC_2.2.5
+                0x0000000000400c80                pthread_attr_init@@GLIBC_2.2.5
+                0x0000000000400c90                getchar@@GLIBC_2.2.5
+                0x0000000000400ca0                memcpy@@GLIBC_2.14
+                0x0000000000400cb0                pthread_mutex_unlock@@GLIBC_2.2.5
+                0x0000000000400cc0                pthread_attr_setstacksize@@GLIBC_2.2.5
+                0x0000000000400cd0                ntohs@@GLIBC_2.2.5
+                0x0000000000400ce0                bind@@GLIBC_2.2.5
+                0x0000000000400cf0                sprintf@@GLIBC_2.2.5
+                0x0000000000400d00                pthread_mutex_init@@GLIBC_2.2.5
+                0x0000000000400d10                pthread_mutex_lock@@GLIBC_2.2.5
+                0x0000000000400d20                usleep@@GLIBC_2.2.5
+                0x0000000000400d30                socket@@GLIBC_2.2.5
+ *(.iplt)
+ .iplt          0x0000000000400d40        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.plt.got        0x0000000000400d40        0x8
+ *(.plt.got)
+ .plt.got       0x0000000000400d40        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000400d50     0xfac8
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000400d50       0x2a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400d50                _start
+ *fill*         0x0000000000400d7a        0x6 
+ .text          0x0000000000400d80       0xc6 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+ .text.cvtBufferToInt16
+                0x0000000000400e46       0x39 obj/linux/RFTEC02_R0.o
+                0x0000000000400e46                cvtBufferToInt16
+ .text.changeRFTEC01_ConfigParam
+                0x0000000000400e7f       0x5e obj/linux/RFTEC02_R0.o
+                0x0000000000400e7f                changeRFTEC01_ConfigParam
+ .text.updateRFT_Data
+                0x0000000000400edd      0x1bc obj/linux/RFTEC02_R0.o
+                0x0000000000400edd                updateRFT_Data
+ .text.RFT_DATA_DISPLAY_THREAD
+                0x0000000000401099       0xf0 obj/linux/RFTEC02_R0.o
+                0x0000000000401099                RFT_DATA_DISPLAY_THREAD
+ .text.update_RFTEC02_R0_OutputProcessData
+                0x0000000000401189       0x78 obj/linux/RFTEC02_R0.o
+                0x0000000000401189                update_RFTEC02_R0_OutputProcessData
+ .text.RFT_TEST_OP_THREAD
+                0x0000000000401201      0x22c obj/linux/RFTEC02_R0.o
+                0x0000000000401201                RFT_TEST_OP_THREAD
+ .text.RFTEC02_R0_TEST
+                0x000000000040142d      0x34e obj/linux/RFTEC02_R0.o
+                0x000000000040142d                RFTEC02_R0_TEST
+ .text.ecatcheck
+                0x000000000040177b      0x464 obj/linux/RFTEC02_R0.o
+                0x000000000040177b                ecatcheck
+ .text.main     0x0000000000401bdf       0x69 obj/linux/RFTEC02_R0.o
+                0x0000000000401bdf                main
+ .text.osal_usleep
+                0x0000000000401c48       0x84 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+                0x0000000000401c48                osal_usleep
+ .text.osal_gettimeofday
+                0x0000000000401ccc       0x8a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+                0x0000000000401ccc                osal_gettimeofday
+ .text.osal_current_time
+                0x0000000000401d56       0x55 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+                0x0000000000401d56                osal_current_time
+ .text.osal_timer_start
+                0x0000000000401dab       0xf0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+                0x0000000000401dab                osal_timer_start
+ .text.osal_timer_is_expired
+                0x0000000000401e9b       0xa5 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+                0x0000000000401e9b                osal_timer_is_expired
+ .text.osal_thread_create
+                0x0000000000401f40       0xa0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+                0x0000000000401f40                osal_thread_create
+ .text.ec_findconfig
+                0x0000000000401fe0       0xac /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000401fe0                ec_findconfig
+ .text.ecx_init_context
+                0x000000000040208c       0xd4 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x000000000040208c                ecx_init_context
+ .text.ecx_detect_slaves
+                0x0000000000402160      0x10f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000402160                ecx_detect_slaves
+ .text.ecx_set_slaves_to_default
+                0x000000000040226f      0x295 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ecx_config_from_table
+                0x0000000000402504      0x39b /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ecx_lookup_prev_sii
+                0x000000000040289f      0x747 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ecx_config_init
+                0x0000000000402fe6     0x176b /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000402fe6                ecx_config_init
+ .text.ecx_lookup_mapping
+                0x0000000000404751      0x33a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ecx_map_coe_soe
+                0x0000000000404a8b      0x313 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ecx_map_sii
+                0x0000000000404d9e      0x32a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ecx_map_sm
+                0x00000000004050c8      0x457 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ecx_mapper_thread
+                0x000000000040551f       0x43 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x000000000040551f                ecx_mapper_thread
+ .text.ecx_find_mapt
+                0x0000000000405562       0x49 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ecx_get_threadcount
+                0x00000000004055ab       0x43 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .text.ecx_config_map_group
+                0x00000000004055ee     0x1d9d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x00000000004055ee                ecx_config_map_group
+ .text.ecx_recover_slave
+                0x000000000040738b      0x39c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x000000000040738b                ecx_recover_slave
+ .text.ecx_reconfig_slave
+                0x0000000000407727      0x34c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000407727                ecx_reconfig_slave
+ .text.ec_config_init
+                0x0000000000407a73       0x20 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000407a73                ec_config_init
+ .text.ec_config_map_group
+                0x0000000000407a93       0x2b /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000407a93                ec_config_map_group
+ .text.ec_config_map
+                0x0000000000407abe       0x20 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000407abe                ec_config_map
+ .text.ec_recover_slave
+                0x0000000000407ade       0x29 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000407ade                ec_recover_slave
+ .text.ec_reconfig_slave
+                0x0000000000407b07       0x29 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000407b07                ec_reconfig_slave
+ .text.ecx_porttime
+                0x0000000000407b30      0x116 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .text.ecx_prevport
+                0x0000000000407c46      0x182 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .text.ecx_parentport
+                0x0000000000407dc8       0xd8 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .text.ecx_configdc
+                0x0000000000407ea0      0xdfe /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+                0x0000000000407ea0                ecx_configdc
+ .text.ec_configdc
+                0x0000000000408c9e       0x13 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+                0x0000000000408c9e                ec_configdc
+ .text.ecx_pusherror
+                0x0000000000408cb1      0x128 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000408cb1                ecx_pusherror
+ .text.ecx_poperror
+                0x0000000000408dd9      0x10d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000408dd9                ecx_poperror
+ .text.ecx_packeterror
+                0x0000000000408ee6       0xbd /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000408ee6                ecx_packeterror
+ .text.ecx_mbxerror
+                0x0000000000408fa3       0x9e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_mbxemergencyerror
+                0x0000000000409041       0xe1 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_init
+                0x0000000000409122       0x2e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000409122                ecx_init
+ .text.ecx_close
+                0x0000000000409150       0x1f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000409150                ecx_close
+ .text.ecx_siigetbyte
+                0x000000000040916f      0x2a5 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040916f                ecx_siigetbyte
+ .text.ecx_siifind
+                0x0000000000409414      0x1d2 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000409414                ecx_siifind
+ .text.ecx_siistring
+                0x00000000004095e6      0x1e8 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x00000000004095e6                ecx_siistring
+ .text.ecx_siiFMMU
+                0x00000000004097ce      0x226 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x00000000004097ce                ecx_siiFMMU
+ .text.ecx_siiSM
+                0x00000000004099f4      0x2c2 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x00000000004099f4                ecx_siiSM
+ .text.ecx_siiSMnext
+                0x0000000000409cb6      0x247 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000409cb6                ecx_siiSMnext
+ .text.ecx_siiPDO
+                0x0000000000409efd      0x4e8 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000409efd                ecx_siiPDO
+ .text.ecx_FPRD_multi
+                0x000000000040a3e5      0x301 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040a3e5                ecx_FPRD_multi
+ .text.ecx_readstate
+                0x000000000040a6e6      0x336 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040a6e6                ecx_readstate
+ .text.ecx_writestate
+                0x000000000040aa1c      0x121 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040aa1c                ecx_writestate
+ .text.ecx_statecheck
+                0x000000000040ab3d      0x1d8 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040ab3d                ecx_statecheck
+ .text.ec_nextmbxcnt
+                0x000000000040ad15       0x24 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040ad15                ec_nextmbxcnt
+ .text.ec_clearmbx
+                0x000000000040ad39       0x26 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040ad39                ec_clearmbx
+ .text.ecx_mbxempty
+                0x000000000040ad5f      0x12c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040ad5f                ecx_mbxempty
+ .text.ecx_mbxsend
+                0x000000000040ae8b      0x12d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040ae8b                ecx_mbxsend
+ .text.ecx_mbxreceive
+                0x000000000040afb8      0x46f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040afb8                ecx_mbxreceive
+ .text.ecx_readeeprom
+                0x000000000040b427       0x7c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040b427                ecx_readeeprom
+ .text.ecx_eeprom2master
+                0x000000000040b4a3      0x181 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040b4a3                ecx_eeprom2master
+ .text.ecx_eeprom2pdi
+                0x000000000040b624      0x12c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040b624                ecx_eeprom2pdi
+ .text.ecx_eeprom_waitnotbusyFP
+                0x000000000040b750      0x113 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040b750                ecx_eeprom_waitnotbusyFP
+ .text.ecx_readeepromFP
+                0x000000000040b863      0x271 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040b863                ecx_readeepromFP
+ .text.ecx_readeeprom1
+                0x000000000040bad4      0x159 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040bad4                ecx_readeeprom1
+ .text.ecx_readeeprom2
+                0x000000000040bc2d       0xee /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040bc2d                ecx_readeeprom2
+ .text.ecx_pushindex
+                0x000000000040bd1b       0xb2 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_pullindex
+                0x000000000040bdcd       0x56 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .text.ecx_send_processdata_group
+                0x000000000040be23      0x950 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040be23                ecx_send_processdata_group
+ .text.ecx_receive_processdata_group
+                0x000000000040c773      0x3a3 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040c773                ecx_receive_processdata_group
+ .text.ec_init  0x000000000040cb16       0x20 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040cb16                ec_init
+ .text.ec_close
+                0x000000000040cb36       0x14 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040cb36                ec_close
+ .text.ec_readstate
+                0x000000000040cb4a       0x13 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040cb4a                ec_readstate
+ .text.ec_writestate
+                0x000000000040cb5d       0x21 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040cb5d                ec_writestate
+ .text.ec_statecheck
+                0x000000000040cb7e       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040cb7e                ec_statecheck
+ .text.ec_send_processdata_group
+                0x000000000040cbb3       0x20 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040cbb3                ec_send_processdata_group
+ .text.ec_receive_processdata_group
+                0x000000000040cbd3       0x28 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040cbd3                ec_receive_processdata_group
+ .text.ec_send_processdata
+                0x000000000040cbfb       0x13 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040cbfb                ec_send_processdata
+ .text.ec_receive_processdata
+                0x000000000040cc0e       0x1d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000040cc0e                ec_receive_processdata
+ .text.ec_sdoerror2string
+                0x000000000040cc2b       0x75 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                0x000000000040cc2b                ec_sdoerror2string
+ .text.ec_ALstatuscode2string
+                0x000000000040cca0       0x79 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                0x000000000040cca0                ec_ALstatuscode2string
+ .text.ec_soeerror2string
+                0x000000000040cd19       0x79 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                0x000000000040cd19                ec_soeerror2string
+ .text.ec_mbxerror2string
+                0x000000000040cd92       0x79 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                0x000000000040cd92                ec_mbxerror2string
+ .text.ecx_elist2string
+                0x000000000040ce0b      0x2dd /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                0x000000000040ce0b                ecx_elist2string
+ .text.ecx_SoEerror
+                0x000000000040d0e8       0xb2 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+                0x000000000040d0e8                ecx_SoEerror
+ .text.ecx_SoEread
+                0x000000000040d19a      0x463 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+                0x000000000040d19a                ecx_SoEread
+ .text.ecx_readIDNmap
+                0x000000000040d5fd      0x32f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+                0x000000000040d5fd                ecx_readIDNmap
+ .text.ecx_writedatagramdata
+                0x000000000040d92c       0x70 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .text.ecx_setupdatagram
+                0x000000000040d99c      0x115 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040d99c                ecx_setupdatagram
+ .text.ecx_adddatagram
+                0x000000000040dab1      0x1aa /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040dab1                ecx_adddatagram
+ .text.ecx_BWR  0x000000000040dc5b       0xc6 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040dc5b                ecx_BWR
+ .text.ecx_BRD  0x000000000040dd21       0xff /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040dd21                ecx_BRD
+ .text.ecx_APRD
+                0x000000000040de20       0xff /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040de20                ecx_APRD
+ .text.ecx_APRDw
+                0x000000000040df1f       0x7a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040df1f                ecx_APRDw
+ .text.ecx_FPRD
+                0x000000000040df99       0xff /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040df99                ecx_FPRD
+ .text.ecx_FPRDw
+                0x000000000040e098       0x7a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040e098                ecx_FPRDw
+ .text.ecx_APWR
+                0x000000000040e112       0xc6 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040e112                ecx_APWR
+ .text.ecx_APWRw
+                0x000000000040e1d8       0x4f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040e1d8                ecx_APWRw
+ .text.ecx_FPWR
+                0x000000000040e227       0xc6 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040e227                ecx_FPWR
+ .text.ecx_FPWRw
+                0x000000000040e2ed       0x4f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                0x000000000040e2ed                ecx_FPWRw
+ .text.ecx_SDOerror
+                0x000000000040e33c       0xb8 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+                0x000000000040e33c                ecx_SDOerror
+ .text.ecx_SDOread
+                0x000000000040e3f4      0x724 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+                0x000000000040e3f4                ecx_SDOread
+ .text.ecx_readPDOassign
+                0x000000000040eb18      0x267 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+                0x000000000040eb18                ecx_readPDOassign
+ .text.ecx_readPDOassignCA
+                0x000000000040ed7f      0x1ea /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+                0x000000000040ed7f                ecx_readPDOassignCA
+ .text.ecx_readPDOmap
+                0x000000000040ef69      0x34c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+                0x000000000040ef69                ecx_readPDOmap
+ .text.ecx_readPDOmapCA
+                0x000000000040f2b5      0x304 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+                0x000000000040f2b5                ecx_readPDOmapCA
+ *fill*         0x000000000040f5b9        0x7 
+ .text          0x000000000040f5c0       0x72 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x000000000040f5c0                __libc_csu_init
+                0x000000000040f630                __libc_csu_fini
+ .text.ecx_clear_rxbufstat
+                0x000000000040f632       0x39 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ecx_setupnic
+                0x000000000040f66b      0x4fc /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000040f66b                ecx_setupnic
+ .text.ecx_closenic
+                0x000000000040fb67       0x68 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000040fb67                ecx_closenic
+ .text.ec_setupheader
+                0x000000000040fbcf       0xba /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000040fbcf                ec_setupheader
+ .text.ecx_getindex
+                0x000000000040fc89       0xf9 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000040fc89                ecx_getindex
+ .text.ecx_setbufstat
+                0x000000000040fd82       0x5b /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000040fd82                ecx_setbufstat
+ .text.ecx_outframe
+                0x000000000040fddd       0xa5 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000040fddd                ecx_outframe
+ .text.ecx_outframe_red
+                0x000000000040fe82      0x145 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000040fe82                ecx_outframe_red
+ .text.ecx_recvpkt
+                0x000000000040ffc7       0x82 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ecx_inframe
+                0x0000000000410049      0x2f6 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x0000000000410049                ecx_inframe
+ .text.ecx_waitinframe_red
+                0x000000000041033f      0x361 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .text.ecx_waitinframe
+                0x00000000004106a0       0x8b /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x00000000004106a0                ecx_waitinframe
+ .text.ecx_srconfirm
+                0x000000000041072b       0xed /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                0x000000000041072b                ecx_srconfirm
+ *(.gnu.warning)
+
+.fini           0x0000000000410818        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000410818        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o
+                0x0000000000410818                _fini
+ .fini          0x000000000041081c        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000410840     0x5748
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000410840      0x492 obj/linux/RFTEC02_R0.o
+ *fill*         0x0000000000410cd2        0xe 
+ .rodata        0x0000000000410ce0      0x6d2 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x0000000000410ce0                ec_configlist
+ *fill*         0x00000000004113b2        0xe 
+ .rodata        0x00000000004113c0     0x4b70 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                0x00000000004113c0                ec_sdoerrorlist
+                0x0000000000412440                ec_ALstatuscodelist
+                0x0000000000413ec0                ec_soeerrorlist
+                0x00000000004158c0                ec_mbxerrorlist
+ .rodata        0x0000000000415f30       0x58 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000415f88      0x414
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000415f88      0x414 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000415f88                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000004163a0      0xfc4
+ *(.eh_frame)
+ .eh_frame      0x00000000004163a0       0x30 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x00000000004163d0       0x40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x0000000000416410       0xf0 obj/linux/RFTEC02_R0.o
+ .eh_frame      0x0000000000416500       0x98 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+                                        0x110 (size before relaxing)
+ .eh_frame      0x0000000000416598      0x270 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                                        0x268 (size before relaxing)
+ .eh_frame      0x0000000000416808       0x88 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x0000000000416890      0x540 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                                        0x8d0 (size before relaxing)
+ .eh_frame      0x0000000000416dd0       0xa0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                                         0xc0 (size before relaxing)
+ .eh_frame      0x0000000000416e70       0x88 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+                                        0x110 (size before relaxing)
+ .eh_frame      0x0000000000416ef8      0x1a8 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                                        0x460 (size before relaxing)
+ .eh_frame      0x00000000004170a0      0x100 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+                                        0x330 (size before relaxing)
+ .eh_frame      0x00000000004171a0       0x60 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000417200      0x160 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                                        0x238 (size before relaxing)
+ .eh_frame      0x0000000000417360        0x0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x0000000000417360        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000617e00                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000617e00        0x0
+                [!provide]                        PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000000617e00        0x8
+                0x0000000000617e00                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000617e00        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+                0x0000000000617e08                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000000617e08        0x8
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000617e08        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000617e10        0x8
+ *(.jcr)
+ .jcr           0x0000000000617e10        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+ .jcr           0x0000000000617e10        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000617e18      0x1e0
+ *(.dynamic)
+ .dynamic       0x0000000000617e18      0x1e0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000617e18                _DYNAMIC
+
+.got            0x0000000000617ff8        0x8
+ *(.got)
+ .got           0x0000000000617ff8        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ *(.igot)
+                0x0000000000618fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000618000      0x100
+ *(.got.plt)
+ .got.plt       0x0000000000618000      0x100 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000618000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000618100        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+
+.data           0x0000000000618100       0xc0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000618100       0x10 obj/linux/RFTEC02_R0.o
+                0x0000000000618100                force_divider
+                0x0000000000618104                torque_divider
+                0x0000000000618108                isRunRFTDisplayThread
+                0x000000000061810c                isRunRT_Thread
+ *fill*         0x0000000000618110       0x10 
+ .data          0x0000000000618120       0xa0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000618120                ecx_context
+
+.tm_clone_table
+                0x00000000006181c0        0x0
+ .tm_clone_table
+                0x00000000006181c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+ .tm_clone_table
+                0x00000000006181c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o
+
+.data1
+ *(.data1)
+                0x00000000006181c0                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x00000000006181c0                . = .
+                0x00000000006181c0                __bss_start = .
+
+.bss            0x00000000006181c0    0x26640
+ *(.dynbss)
+ .dynbss        0x00000000006181c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000006181c0        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+ *fill*         0x00000000006181c1        0xf 
+ .bss           0x00000000006181d0       0x5c obj/linux/RFTEC02_R0.o
+                0x00000000006181d0                currentgroup
+                0x00000000006181e0                RFT_DATA_FIELD
+                0x00000000006181f1                RFT_OverloadStatus
+                0x00000000006181f2                RFT_ErrorFlag
+                0x00000000006181f8                RFT_FT_RAW
+                0x0000000000618210                RFT_FT
+                0x0000000000618228                configCmdType
+                0x0000000000618229                configParam
+ *fill*         0x000000000061822c       0x14 
+ .bss           0x0000000000618240     0x2060 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x0000000000618240                EcatError
+ *(COMMON)
+ COMMON         0x000000000061a2a0     0x1034 obj/linux/RFTEC02_R0.o
+                0x000000000061a2a0                IOmap
+                0x000000000061b2a0                inOP
+                0x000000000061b2a8                thread1
+                0x000000000061b2b0                thread3
+                0x000000000061b2b8                expectedWKC
+                0x000000000061b2bc                rtcnt
+                0x000000000061b2c0                needlf
+                0x000000000061b2c8                thread2
+                0x000000000061b2d0                wkc
+ *fill*         0x000000000061b2d4        0xc 
+ COMMON         0x000000000061b2e0      0x100 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                0x000000000061b2e0                ecx_mapt
+                0x000000000061b3a0                ecx_threadh
+ COMMON         0x000000000061b3e0    0x233a0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                0x000000000061b3e0                ecx_port
+                0x0000000000627f20                ecx_redport
+                0x000000000062e4b0                ec_DCtime
+                0x000000000062e4b8                ec_slavecount
+                0x000000000062e4c0                ec_group
+                0x000000000062e740                ec_slave
+ COMMON         0x000000000063e780       0x7f /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                0x000000000063e780                estring
+                0x000000000063e800                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000063e7ff        0x1 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000063e800                . = ALIGN (0x8)
+                0x000000000063e800                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000a3e800        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000a3e800                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000a3e800                . = ALIGN (0x8)
+                0x0000000000a3e800                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000000a3e800                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 obj/linux/RFTEC02_R0.o
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .comment       0x0000000000000034       0x35 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000     0x1030
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0xb0 obj/linux/RFTEC02_R0.o
+ .debug_aranges
+                0x00000000000000b0       0xc0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .debug_aranges
+                0x0000000000000170      0x190 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .debug_aranges
+                0x0000000000000300       0xb0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .debug_aranges
+                0x00000000000003b0      0x550 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_aranges
+                0x0000000000000900       0x80 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .debug_aranges
+                0x0000000000000980       0x90 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .debug_aranges
+                0x0000000000000a10      0x270 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_aranges
+                0x0000000000000c80      0x1d0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .debug_aranges
+                0x0000000000000e50      0x180 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .debug_aranges
+                0x0000000000000fd0       0x60 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xf234
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0xb84 obj/linux/RFTEC02_R0.o
+ .debug_info    0x0000000000000b84      0x59c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .debug_info    0x0000000000001120     0x1c93 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .debug_info    0x0000000000002db3     0x1555 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .debug_info    0x0000000000004308     0x37a4 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_info    0x0000000000007aac     0x11f5 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .debug_info    0x0000000000008ca1     0x1673 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .debug_info    0x000000000000a314     0x1919 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_info    0x000000000000bc2d     0x2357 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .debug_info    0x000000000000df84     0x1063 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .debug_info    0x000000000000efe7      0x24d /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+
+.debug_abbrev   0x0000000000000000     0x1955
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x251 obj/linux/RFTEC02_R0.o
+ .debug_abbrev  0x0000000000000251      0x15c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .debug_abbrev  0x00000000000003ad      0x312 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .debug_abbrev  0x00000000000006bf      0x290 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .debug_abbrev  0x000000000000094f      0x376 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_abbrev  0x0000000000000cc5      0x222 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .debug_abbrev  0x0000000000000ee7      0x277 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .debug_abbrev  0x000000000000115e      0x1ed /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_abbrev  0x000000000000134b      0x294 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .debug_abbrev  0x00000000000015df      0x287 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .debug_abbrev  0x0000000000001866       0xef /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+
+.debug_line     0x0000000000000000     0x4049
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x3ce obj/linux/RFTEC02_R0.o
+ .debug_line    0x00000000000003ce      0x290 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .debug_line    0x000000000000065e      0xb7d /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .debug_line    0x00000000000011db      0x3d9 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .debug_line    0x00000000000015b4      0xfdf /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_line    0x0000000000002593      0x254 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .debug_line    0x00000000000027e7      0x37a /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .debug_line    0x0000000000002b61      0x5a1 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_line    0x0000000000003102      0x87c /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .debug_line    0x000000000000397e      0x56f /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .debug_line    0x0000000000003eed      0x15c /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x2c6f
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x6ff obj/linux/RFTEC02_R0.o
+                                        0x787 (size before relaxing)
+ .debug_str     0x00000000000006ff      0x204 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+                                        0x3bd (size before relaxing)
+ .debug_str     0x0000000000000903      0xac1 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+                                       0x10c9 (size before relaxing)
+ .debug_str     0x00000000000013c4      0x10e /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+                                        0xd8d (size before relaxing)
+ .debug_str     0x00000000000014d2      0x8a5 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+                                       0x163f (size before relaxing)
+ .debug_str     0x0000000000001d77      0x157 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+                                        0xa80 (size before relaxing)
+ .debug_str     0x0000000000001ece      0x262 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+                                        0xbf8 (size before relaxing)
+ .debug_str     0x0000000000002130      0x1ca /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+                                        0x979 (size before relaxing)
+ .debug_str     0x00000000000022fa      0x47b /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+                                        0xe9f (size before relaxing)
+ .debug_str     0x0000000000002775      0x467 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+                                        0x8a3 (size before relaxing)
+ .debug_str     0x0000000000002bdc       0x93 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+                                        0x23c (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0xf80
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0xa0 obj/linux/RFTEC02_R0.o
+ .debug_ranges  0x00000000000000a0       0xb0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libosal.a(osal.o)
+ .debug_ranges  0x0000000000000150      0x180 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatconfig.o)
+ .debug_ranges  0x00000000000002d0       0xa0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatdc.o)
+ .debug_ranges  0x0000000000000370      0x540 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatmain.o)
+ .debug_ranges  0x00000000000008b0       0x70 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatprint.o)
+ .debug_ranges  0x0000000000000920       0x80 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatsoe.o)
+ .debug_ranges  0x00000000000009a0      0x260 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatbase.o)
+ .debug_ranges  0x0000000000000c00      0x1c0 /home/robotous/Projects/SOEM-1.3.1/lib/linux/libsoem.a(ethercatcoe.o)
+ .debug_ranges  0x0000000000000dc0      0x170 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(nicdrv.o)
+ .debug_ranges  0x0000000000000f30       0x50 /home/robotous/Projects/SOEM-1.3.1/lib/linux/liboshw.a(oshw.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(RFTEC02_R0 elf64-x86-64)

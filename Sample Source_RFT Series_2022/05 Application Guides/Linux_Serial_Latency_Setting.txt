@@ -1,0 +1,22 @@
+
+- latency checking
+> sudo cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+16 <- this means the latency 
+
+- install the setserial sw
+> sudo apt-get install setserial
+
+- change the low latency method 1
+> sudo setserial /dev/ttyUSB0 low_latency
+> sudo cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+1 <- latency was changed.
+
+- change the latency method 2
+> echo 1 /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+1 <- latency was changed.
+
+- if you can't access the device, you should login or change user mode to root.
+> sudo -i
+
+- if you can't access the deivce, you can change the device authority
+> sudo chmod 766 /dev/ttyUSB0
