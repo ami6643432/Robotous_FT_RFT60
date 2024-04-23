@@ -26,8 +26,10 @@ Before you start your journey of making and building different stacks, it's esse
    ![4](https://github.com/ami6643432/Robotous_FT_RFT60/assets/23532442/2a6a2857-46b1-47af-bd86-934eae6d6481)
    
    
-8. Start serial communication
+7. Start serial communication
 ```bash
+   mick@mick-Predator-PHN16-71:~/catkin_ft$ rosparam set /RFT_COM_PORT /dev/ttyUSB0
+   mick@mick-Predator-PHN16-71:~/catkin_ft$ rosparam set /RFT_TORQUE_DEVIDER 1000
    mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rft_sensor_serial rft_sensor_serial
 ```
 If there is error even after package got built, then go to the Common Errors section.
