@@ -2,7 +2,7 @@
 
 **Catkin code to interface RFT60-HA01 sensor via catkin workspace to a ROS node.**
 
-## Learning Tools
+## Method 1 ( Via rqt_service_caller GUI )
 
 Before you start your journey of making and building different stacks, it's essential to familiarize yourself with the following tools:
 
@@ -103,4 +103,26 @@ mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rft_sensor_serial rft_sensor_ser
 [ INFO] [1713562410.456895889]: RFT Force/Torque Sensor <Serial> is ready!!!!
 ```
 
-#
+
+## Method 2 ( Directly calling the rosservice via terminal )
+1. Complete till the step 7 of Method 1
+   
+2. Call rosservice /rft_serial_op_service and pass the params from the image in step 9 into the input parameters.
+
+   To start the communication
+   ```bash
+   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 11, param1: 0, param2: 0, param3: 0}" result: 0
+   ```
+
+   To automatically set the bias values
+   ```bash
+   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 17, param1: 1, param2: 0, param3: 0}" result: 0
+   ```
+
+   To stop the service:
+   ```bash
+   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 12, param1: 0, param2: 0, param3: 0}"
+   ```
+
+
+   
