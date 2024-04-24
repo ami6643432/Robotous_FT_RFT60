@@ -123,6 +123,11 @@ mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rft_sensor_serial rft_sensor_ser
    ```bash
    mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 12, param1: 0, param2: 0, param3: 0}"
    ```
-
+  3. Echo the topic to see the F/T data being published
+  4. 
+     ```bash
+      mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rostopic list
+      mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rostopic echo /RFT_FORCE
+     ```
 
    
