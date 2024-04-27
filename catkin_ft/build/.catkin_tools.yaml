@@ -1,6 +1,6 @@
-devel_space: /home/mick/catkin_ft/devel
+devel_space: /home/mick/Robotous_FT_RFT60/catkin_ft/devel
 install: false
-install_space: /home/mick/catkin_ft/install
+install_space: /home/mick/Robotous_FT_RFT60/catkin_ft/install
 profile: default
-source_space: /home/mick/catkin_ft/src
-workspace: /home/mick/catkin_ft
+source_space: /home/mick/Robotous_FT_RFT60/catkin_ft/src
+workspace: /home/mick/Robotous_FT_RFT60/catkin_ft

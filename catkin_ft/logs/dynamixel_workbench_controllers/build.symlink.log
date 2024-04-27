@@ -1,0 +1,5 @@
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/lib/dynamixel_workbench_controllers/find_dynamixel
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/lib/dynamixel_workbench_controllers/dynamixel_workbench_controllers
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/lib/pkgconfig/dynamixel_workbench_controllers.pc
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig-version.cmake
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig.cmake

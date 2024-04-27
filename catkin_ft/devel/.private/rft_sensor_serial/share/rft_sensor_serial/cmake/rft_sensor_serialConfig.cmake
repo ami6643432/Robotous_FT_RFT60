@@ -67,14 +67,14 @@ set(rft_sensor_serial_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(rft_sensor_serial_SOURCE_PREFIX /home/mick/catkin_ft/src/RFT_Sensor_Serial)
-  set(rft_sensor_serial_DEVEL_PREFIX /home/mick/catkin_ft/devel/.private/rft_sensor_serial)
+  set(rft_sensor_serial_SOURCE_PREFIX /home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial)
+  set(rft_sensor_serial_DEVEL_PREFIX /home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial)
   set(rft_sensor_serial_INSTALL_PREFIX "")
   set(rft_sensor_serial_PREFIX ${rft_sensor_serial_DEVEL_PREFIX})
 else()
   set(rft_sensor_serial_SOURCE_PREFIX "")
   set(rft_sensor_serial_DEVEL_PREFIX "")
-  set(rft_sensor_serial_INSTALL_PREFIX /home/mick/catkin_ft/install)
+  set(rft_sensor_serial_INSTALL_PREFIX /home/mick/Robotous_FT_RFT60/catkin_ft/install)
   set(rft_sensor_serial_PREFIX ${rft_sensor_serial_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(rft_sensor_serial_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/mick/catkin_ft/devel/.private/rft_sensor_serial/include;/home/mick/catkin_ft/src/RFT_Sensor_Serial/include " STREQUAL " ")
+if(NOT "/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/include;/home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial/include " STREQUAL " ")
   set(rft_sensor_serial_INCLUDE_DIRS "")
-  set(_include_dirs "/home/mick/catkin_ft/devel/.private/rft_sensor_serial/include;/home/mick/catkin_ft/src/RFT_Sensor_Serial/include")
+  set(_include_dirs "/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/include;/home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.robotous.com " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/mick/catkin_ft/devel/.private/rft_sensor_serial/include;/home/mick
         message(FATAL_ERROR "Project 'rft_sensor_serial' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'rft_sensor_serial' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/mick/catkin_ft/src/RFT_Sensor_Serial/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'rft_sensor_serial' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial/${idir}'.  ${_report}")
     endif()
     _list_append_unique(rft_sensor_serial_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mick/catkin_ft/devel/.private/rft_sensor_serial/lib;/home/mick/catkin_ft/devel/lib;/home/mick/ros_catkin_ws/install_isolated/lib)
+    foreach(path /home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/lib;/home/mick/Robotous_FT_RFT60/catkin_ft/devel/lib;/home/mick/ros_catkin_ws/install_isolated/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

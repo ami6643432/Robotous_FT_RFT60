@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mick/catkin_ft/src/RFT_Sensor_Serial
+CMAKE_SOURCE_DIR = /home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mick/catkin_ft/build/rft_sensor_serial
+CMAKE_BINARY_DIR = /home/mick/Robotous_FT_RFT60/catkin_ft/build/rft_sensor_serial
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /home/mick/catkin_ft/build/rft_sensor_serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mick/catkin_ft/src/RFT_Sensor_Serial /home/mick/catkin_ft/src/RFT_Sensor_Serial /home/mick/catkin_ft/build/rft_sensor_serial /home/mick/catkin_ft/build/rft_sensor_serial /home/mick/catkin_ft/build/rft_sensor_serial/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mick/Robotous_FT_RFT60/catkin_ft/build/rft_sensor_serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial /home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial /home/mick/Robotous_FT_RFT60/catkin_ft/build/rft_sensor_serial /home/mick/Robotous_FT_RFT60/catkin_ft/build/rft_sensor_serial /home/mick/Robotous_FT_RFT60/catkin_ft/build/rft_sensor_serial/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 

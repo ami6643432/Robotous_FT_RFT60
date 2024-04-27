@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;std_msgs;roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lrft_sensor_serial".split(';') if "-lrft_sensor_serial" != "" else []
 PROJECT_NAME = "rft_sensor_serial"
-PROJECT_SPACE_DIR = "/home/mick/catkin_ft/install"
+PROJECT_SPACE_DIR = "/home/mick/Robotous_FT_RFT60/catkin_ft/install"
 PROJECT_VERSION = "0.0.1"

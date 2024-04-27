@@ -1,1 +1,1 @@
-/home/mick/catkin_ft/devel/.private/catkin_tools_prebuild/local_setup.sh
+/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/catkin_tools_prebuild/local_setup.sh

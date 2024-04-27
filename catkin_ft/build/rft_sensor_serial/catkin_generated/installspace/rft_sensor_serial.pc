@@ -1,4 +1,4 @@
-prefix=/home/mick/catkin_ft/install
+prefix=/home/mick/Robotous_FT_RFT60/catkin_ft/install
 
 Name: rft_sensor_serial
 Description: Description of rft_sensor_serial

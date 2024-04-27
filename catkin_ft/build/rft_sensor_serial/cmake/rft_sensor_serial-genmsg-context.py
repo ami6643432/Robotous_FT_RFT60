@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/mick/catkin_ft/src/RFT_Sensor_Serial/srv/rft_operation.srv"
+services_str = "/home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial/srv/rft_operation.srv"
 pkg_name = "rft_sensor_serial"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

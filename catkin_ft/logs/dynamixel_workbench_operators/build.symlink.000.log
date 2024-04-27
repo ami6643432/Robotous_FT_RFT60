@@ -1,0 +1,5 @@
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/lib/dynamixel_workbench_operators/joint_operator
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/lib/dynamixel_workbench_operators/wheel_operator
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/lib/pkgconfig/dynamixel_workbench_operators.pc
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/share/dynamixel_workbench_operators/cmake/dynamixel_workbench_operatorsConfig.cmake
+Symlinking /home/mick/Robotous_FT_RFT60/catkin_ft/devel/share/dynamixel_workbench_operators/cmake/dynamixel_workbench_operatorsConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake

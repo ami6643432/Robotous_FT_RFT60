@@ -1,0 +1,1 @@
+/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/share/rft_sensor_serial/cmake/rft_sensor_serial-msg-extras.cmake

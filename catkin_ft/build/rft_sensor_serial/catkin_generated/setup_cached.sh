@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mick/catkin_ft/devel/.private/rft_sensor_serial:$CMAKE_PREFIX_PATH"
-export PWD='/home/mick/catkin_ft/build/rft_sensor_serial'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mick/catkin_ft/devel/.private/rft_sensor_serial/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/mick/catkin_ft/src/RFT_Sensor_Serial:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial:$CMAKE_PREFIX_PATH"
+export PWD='/home/mick/Robotous_FT_RFT60/catkin_ft/build/rft_sensor_serial'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial:$ROS_PACKAGE_PATH"

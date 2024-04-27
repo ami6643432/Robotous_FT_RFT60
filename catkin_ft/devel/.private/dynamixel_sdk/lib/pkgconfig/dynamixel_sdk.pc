@@ -1,0 +1,8 @@
+prefix=/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/dynamixel_sdk
+
+Name: dynamixel_sdk
+Description: Description of dynamixel_sdk
+Version: 3.7.51
+Cflags: -I/home/mick/Robotous_FT_RFT60/catkin_ft/src/DynamixelSDK/ros/dynamixel_sdk/include
+Libs: -L${prefix}/lib -ldynamixel_sdk
+Requires: roscpp rospy

@@ -1,0 +1,1 @@
+/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/dynamixel_workbench_msgs/share/common-lisp/ros/dynamixel_workbench_msgs/msg/XM.lisp

@@ -1,0 +1,1 @@
+/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/dynamixel_workbench_msgs/lib/python3/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelLoadInfo.py

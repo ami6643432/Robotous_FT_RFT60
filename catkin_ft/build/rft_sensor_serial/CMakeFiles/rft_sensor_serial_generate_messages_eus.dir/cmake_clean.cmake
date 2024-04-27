@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/mick/catkin_ft/devel/.private/rft_sensor_serial/share/roseus/ros/rft_sensor_serial/manifest.l"
-  "/home/mick/catkin_ft/devel/.private/rft_sensor_serial/share/roseus/ros/rft_sensor_serial/srv/rft_operation.l"
+  "/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/share/roseus/ros/rft_sensor_serial/manifest.l"
+  "/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/share/roseus/ros/rft_sensor_serial/srv/rft_operation.l"
   "CMakeFiles/rft_sensor_serial_generate_messages_eus"
 )
 

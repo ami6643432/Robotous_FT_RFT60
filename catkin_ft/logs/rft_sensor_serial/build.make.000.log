@@ -1,60 +1,60 @@
-[35m[1mScanning dependencies of target _rft_sensor_serial_generate_messages_check_deps_rft_operation[0m
-[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
 [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
 [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _rft_sensor_serial_generate_messages_check_deps_rft_operation[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
 [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
 [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
 [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
 [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
 [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
-[  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
 [  0%] Built target std_msgs_generate_messages_eus
-[  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_nodejs
-[  0%] Built target rosgraph_msgs_generate_messages_nodejs
-[  0%] Built target roscpp_generate_messages_lisp
 [  0%] Built target rosgraph_msgs_generate_messages_cpp
-[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target roscpp_generate_messages_nodejs
 [  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target rosgraph_msgs_generate_messages_eus
-[  0%] Built target rosgraph_msgs_generate_messages_lisp
-[  0%] Built target geometry_msgs_generate_messages_eus
-[  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
 [  0%] Built target roscpp_generate_messages_py
-[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
 [  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target roscpp_generate_messages_eus
 [  0%] Built target _rft_sensor_serial_generate_messages_check_deps_rft_operation
-[35m[1mScanning dependencies of target rft_sensor_serial_generate_messages_nodejs[0m
 [35m[1mScanning dependencies of target rft_sensor_serial_generate_messages_eus[0m
 [35m[1mScanning dependencies of target rft_sensor_serial_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rft_sensor_serial_generate_messages_nodejs[0m
 [35m[1mScanning dependencies of target rft_sensor_serial_generate_messages_py[0m
 [35m[1mScanning dependencies of target rft_sensor_serial_generate_messages_lisp[0m
 [  9%] [34m[1mGenerating EusLisp code from rft_sensor_serial/rft_operation.srv[0m
-[ 36%] [34m[1mGenerating EusLisp manifest code for rft_sensor_serial[0m
+[ 27%] [34m[1mGenerating EusLisp manifest code for rft_sensor_serial[0m
+[ 27%] [34m[1mGenerating Javascript code from rft_sensor_serial/rft_operation.srv[0m
 [ 36%] [34m[1mGenerating C++ code from rft_sensor_serial/rft_operation.srv[0m
-[ 36%] [34m[1mGenerating Javascript code from rft_sensor_serial/rft_operation.srv[0m
 [ 45%] [34m[1mGenerating Python code from SRV rft_sensor_serial/rft_operation[0m
 [ 54%] [34m[1mGenerating Lisp code from rft_sensor_serial/rft_operation.srv[0m
-[ 54%] Built target rft_sensor_serial_generate_messages_lisp
 [ 54%] Built target rft_sensor_serial_generate_messages_nodejs
+[ 54%] Built target rft_sensor_serial_generate_messages_lisp
+[ 54%] Built target rft_sensor_serial_generate_messages_cpp
 [ 63%] [34m[1mGenerating Python srv __init__.py for rft_sensor_serial[0m
-[ 63%] Built target rft_sensor_serial_generate_messages_cpp
 [ 63%] Built target rft_sensor_serial_generate_messages_eus
 [ 63%] Built target rft_sensor_serial_generate_messages_py
 [35m[1mScanning dependencies of target rft_sensor_serial_generate_messages[0m
@@ -63,9 +63,9 @@
 [ 72%] [32mBuilding CXX object CMakeFiles/rft_sensor_serial.dir/src/main.cpp.o[0m
 [ 81%] [32mBuilding CXX object CMakeFiles/rft_sensor_serial.dir/src/RFT_COM.cpp.o[0m
 [ 90%] [32mBuilding CXX object CMakeFiles/rft_sensor_serial.dir/src/RFT_IF_PACKET_Rev1.2.cpp.o[0m
-[01m[K/home/mick/catkin_ft/src/RFT_Sensor_Serial/src/RFT_COM.cpp:[m[K In member function ‘[01m[Kbool CRT_RFT_UART::readWorker()[m[K’:
-[01m[K/home/mick/catkin_ft/src/RFT_Sensor_Serial/src/RFT_COM.cpp:229:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[01m[K/home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial/src/RFT_COM.cpp:[m[K In member function ‘[01m[Kbool CRT_RFT_UART::readWorker()[m[K’:
+[01m[K/home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial/src/RFT_COM.cpp:229:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
   229 | [01;35m[K}[m[K
       | [01;35m[K^[m[K
-[100%] [32m[1mLinking CXX executable /home/mick/catkin_ft/devel/.private/rft_sensor_serial/lib/rft_sensor_serial/rft_sensor_serial[0m
+[100%] [32m[1mLinking CXX executable /home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/lib/rft_sensor_serial/rft_sensor_serial[0m
 [100%] Built target rft_sensor_serial

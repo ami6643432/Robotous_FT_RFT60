@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/mick/catkin_ft/devel/.private/rft_sensor_serial/include/rft_sensor_serial/rft_operation.h"
+  "/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/include/rft_sensor_serial/rft_operation.h"
   "CMakeFiles/rft_sensor_serial_generate_messages_cpp"
 )
 

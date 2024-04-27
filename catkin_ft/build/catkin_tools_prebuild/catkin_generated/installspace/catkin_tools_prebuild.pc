@@ -1,4 +1,4 @@
-prefix=/home/mick/catkin_ft/install
+prefix=/home/mick/Robotous_FT_RFT60/catkin_ft/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

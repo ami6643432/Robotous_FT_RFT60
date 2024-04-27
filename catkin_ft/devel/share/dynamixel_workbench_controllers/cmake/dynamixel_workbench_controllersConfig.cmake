@@ -1,0 +1,1 @@
+/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig.cmake

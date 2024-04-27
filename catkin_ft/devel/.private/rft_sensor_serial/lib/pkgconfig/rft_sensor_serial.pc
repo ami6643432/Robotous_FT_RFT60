@@ -1,8 +1,8 @@
-prefix=/home/mick/catkin_ft/devel/.private/rft_sensor_serial
+prefix=/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial
 
 Name: rft_sensor_serial
 Description: Description of rft_sensor_serial
 Version: 0.0.1
-Cflags: -I/home/mick/catkin_ft/devel/.private/rft_sensor_serial/include -I/home/mick/catkin_ft/src/RFT_Sensor_Serial/include
+Cflags: -I/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/include -I/home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial/include
 Libs: -L${prefix}/lib -lrft_sensor_serial
 Requires: geometry_msgs std_msgs roscpp

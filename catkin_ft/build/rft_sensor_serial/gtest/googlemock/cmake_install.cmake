@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mick/catkin_ft/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mick/Robotous_FT_RFT60/catkin_ft/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mick/catkin_ft/build/rft_sensor_serial/gtest/googletest/cmake_install.cmake")
+  include("/home/mick/Robotous_FT_RFT60/catkin_ft/build/rft_sensor_serial/gtest/googletest/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,1 @@
+/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/dynamixel_sdk_examples/share/gennodejs/ros/dynamixel_sdk_examples/srv/BulkGetItem.js

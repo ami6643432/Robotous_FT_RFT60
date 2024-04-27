@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"rft_sensor_serial\"
 
-CXX_INCLUDES = -I/home/mick/catkin_ft/devel/.private/rft_sensor_serial/include -I/home/mick/catkin_ft/src/RFT_Sensor_Serial/include -I/home/mick/ros_catkin_ws/install_isolated/include -I/home/mick/ros_catkin_ws/install_isolated/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/mick/Robotous_FT_RFT60/catkin_ft/devel/.private/rft_sensor_serial/include -I/home/mick/Robotous_FT_RFT60/catkin_ft/src/RFT_Sensor_Serial/include -I/home/mick/ros_catkin_ws/install_isolated/include -I/home/mick/ros_catkin_ws/install_isolated/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 
