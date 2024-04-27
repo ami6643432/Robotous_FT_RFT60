@@ -2,7 +2,7 @@
 
 **Catkin code to interface RFT60-HA01 sensor via catkin workspace to a ROS node.**
 
-## Learning Tools
+## Method 1 ( Via rqt_service_caller GUI )
 
 Before you start your journey of making and building different stacks, it's essential to familiarize yourself with the following tools:
 
@@ -26,8 +26,10 @@ Before you start your journey of making and building different stacks, it's esse
    ![4](https://github.com/ami6643432/Robotous_FT_RFT60/assets/23532442/2a6a2857-46b1-47af-bd86-934eae6d6481)
    
    
-8. Start serial communication
+7. Start serial communication
 ```bash
+   mick@mick-Predator-PHN16-71:~/catkin_ft$ rosparam set /RFT_COM_PORT /dev/ttyUSB0
+   mick@mick-Predator-PHN16-71:~/catkin_ft$ rosparam set /RFT_TORQUE_DEVIDER 1000
    mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rft_sensor_serial rft_sensor_serial
 ```
 If there is error even after package got built, then go to the Common Errors section.
@@ -101,4 +103,31 @@ mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rft_sensor_serial rft_sensor_ser
 [ INFO] [1713562410.456895889]: RFT Force/Torque Sensor <Serial> is ready!!!!
 ```
 
-#
+
+## Method 2 ( Directly calling the rosservice via terminal )
+1. Complete till the step 7 of Method 1
+   
+2. Call rosservice /rft_serial_op_service and pass the params from the image in step 9 into the input parameters.
+
+   To start the communication
+   ```bash
+   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 11, param1: 0, param2: 0, param3: 0}" result: 0
+   ```
+
+   To automatically set the bias values
+   ```bash
+   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 17, param1: 1, param2: 0, param3: 0}" result: 0
+   ```
+
+   To stop the service:
+   ```bash
+   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 12, param1: 0, param2: 0, param3: 0}"
+   ```
+  3. Echo the topic to see the F/T data being published
+  4. 
+     ```bash
+      mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rostopic list
+      mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rostopic echo /RFT_FORCE
+     ```
+
+   
