@@ -212,10 +212,12 @@ def main():
             # Actual code
             dynamixel_obj1.get_motor_data() 
 
-            kp = 0.5
+            kp = 0.9
             kd = 0.05
 
-            kg = 2.5 #kg
+            kg = 2.5 #weight scaling
+
+            # kg = 2.5 + 2.5 #weight scaling with random mass
 
             posd = 180
 
