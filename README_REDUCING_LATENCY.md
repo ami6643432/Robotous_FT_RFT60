@@ -12,7 +12,10 @@ To set the latency timer of the USB serial device to 1ms, use the following comm
  ```bash
  cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
  ```
-Warning - Remember that this will have to be run everytime to reboot.
+
+
+
+> :warning: **That this will have to be done every time you reboot.**
 
 ## 2. USB Scheduling and CPU Affinity
 
