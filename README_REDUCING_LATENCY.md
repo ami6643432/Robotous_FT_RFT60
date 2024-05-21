@@ -15,7 +15,7 @@ To set the latency timer of the USB serial device to 1ms, use the following comm
 
 
 
-> :warning: **That this will have to be done every time you reboot.**
+> :warning: **This will have to be done every time you reboot.**
 
 ## 2. USB Scheduling and CPU Affinity
 
