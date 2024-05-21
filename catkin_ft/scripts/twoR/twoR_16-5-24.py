@@ -89,8 +89,8 @@ class dynamixtest:
         self.DXL_ID                  = id                
         print(self.DXL_ID)
 
-        self.BAUDRATE                    = 57600
-        # self.BAUDRATE                    = 4500000             # Dynamixel default baudrate : 57600
+        # self.BAUDRATE                    = 57600
+        self.BAUDRATE                    = 115200             # Dynamixel default baudrate : 57600
         self.DEVICENAME                  = '/dev/ttyUSB0'    # Check which port is being used on your controller
                                                 # ex) Windows: "COM1"   Linux: "/dev/ttyUSB0" Mac: "/dev/tty.usbserial-*"
 
@@ -129,10 +129,13 @@ class dynamixtest:
 
         dxl_comm_result, dxl_error = self.packetHandler.write1ByteTxRx(self.portHandler, self.DXL_ID, self.ADDR_TORQUE_ENABLE, self.TORQUE_DISABLE)
         print("%s" % self.packetHandler.getRxPacketError(dxl_error))
+        print("DYNAMIXEL disabled")
         dxl_comm_result, dxl_error = self.packetHandler.write1ByteTxRx(self.portHandler, self.DXL_ID, self.ADDR_OPERATING_MODE, self.OPERATING_MODE)
         print("%s" % self.packetHandler.getRxPacketError(dxl_error))
+        print("DYNAMIXEL set to current control mode")
         dxl_comm_result, dxl_error = self.packetHandler.write1ByteTxRx(self.portHandler, self.DXL_ID, self.ADDR_TORQUE_ENABLE, self.TORQUE_ENABLE)
         print("%s" % self.packetHandler.getRxPacketError(dxl_error))
+        print("DYNAMIXEL enabled")
 
         if dxl_comm_result != COMM_SUCCESS:
             print("%s" % self.packetHandler.getTxRxResult(dxl_comm_result))
@@ -313,6 +316,8 @@ def main():
             
             s = phiv.dot(ev) + phip.dot(ep)
 
+            # k0 = k0 + 
+
             zeta = np.transpose([np.transpose(ep), np.transpose(ep)])
 
             g_vector = g_vector * kg
@@ -323,7 +328,7 @@ def main():
 
             tau_id = g_vector + c_vector
 
-            del_tau = 
+            # del_tau = 
 
             # print("g_vector : ", g_vector)
             # print("c_vector : ", c_vector)
@@ -366,8 +371,8 @@ def main():
             print("Tau2 : ", tau2)
 
 
-            dynamixel_obj1.set_goal_curr_callback(int(tau1))
-            dynamixel_obj2.set_goal_curr_callback(int(tau2))
+            # dynamixel_obj1.set_goal_curr_callback(int(tau1))
+            # dynamixel_obj2.set_goal_curr_callback(int(tau2))
 
     finally:
         termios.tcsetattr(sys.stdin, termios.TCSADRAIN, old_settings)

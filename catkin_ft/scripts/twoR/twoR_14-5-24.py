@@ -313,6 +313,8 @@ def main():
             
             s = phiv.dot(ev) + phip.dot(ep)
 
+            # k0 = k0 + 
+
             zeta = np.transpose([np.transpose(ep), np.transpose(ep)])
 
             g_vector = g_vector * kg
