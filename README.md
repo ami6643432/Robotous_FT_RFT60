@@ -111,12 +111,12 @@ mick@mick-Predator-PHN16-71:~/catkin_ft$ rosrun rft_sensor_serial rft_sensor_ser
 
    To start the communication
    ```bash
-   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 11, param1: 0, param2: 0, param3: 0}" result: 0
+   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 11, param1: 0, param2: 0, param3: 0}"
    ```
 
    To automatically set the bias values
    ```bash
-   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 17, param1: 1, param2: 0, param3: 0}" result: 0
+   mick@mick-Predator-PHN16-71:~/Robotous_FT_RFT60/catkin_ft$ rosservice call /rft_serial_op_service "{opType: 17, param1: 1, param2: 0, param3: 0}"
    ```
 
    To stop the service:
